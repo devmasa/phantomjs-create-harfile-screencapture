@@ -1,0 +1,38 @@
+{
+    "top" : {
+        "useragent" : "",
+        "url" : "http://monitored-site/",
+        "filename" : "./files/top",
+        "timeout" : "20000",
+        "selector" : "#list > div > table > tbody > tr > td > div > p > a > img",
+        "viewportwidth" : "1280",
+        "viewportheight" : "800"
+    },
+    "detail" : {
+        "useragent" : "",
+        "url" : "http://monitored-site/example.html?test=test",
+        "filename" : "./files/detail",
+        "timeout" : "20000",
+        "selector" : "#list > div > table > tbody > tr > td > div > p > a > img",
+        "viewportwidth" : "1280",
+        "viewportheight" : "800"
+    },
+    "topmobile" : {
+        "useragent" : "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+        "url" : "http://monitored-site/",
+        "filename" : "./files_mobile/top_mobile",
+        "timeout" : "20000",
+        "selector" : "",
+        "viewportwidth" : "375",
+        "viewportheight" : "667"
+    },
+    "detailbmobile" : {
+        "useragent" : "Mozilla/5.0 (iPhone; CPU iPhone OS 9_2_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13D15 Safari/601.1",
+        "url" : "http://monitored-site/example.html?test=test",
+        "filename" : "./files_mobile/detail_mobile",
+        "timeout" : "20000",
+        "selector" : "#list > div > table > tbody > tr > td > div > p > a > img",
+        "viewportwidth" : "375",
+        "viewportheight" : "667"
+    }
+}
