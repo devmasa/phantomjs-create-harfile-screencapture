@@ -70,8 +70,8 @@ var onReadyFx = function() {
     var har = createHAR(page.address, page.title, page.startTime, page.resources);
     // create files
     var formatDt =  getFormattedDate();
-    var harFile = fileName+'_'+formatDt+'.har';
-    var renderFile = fileName+'_'+formatDt+'.jpg';
+    var harFile = fileName+formatDt+'.har';
+    var renderFile = fileName+formatDt+'.jpg';
     fs.write(harFile, JSON.stringify(har, undefined, 4), 'w'); 
     page.render(renderFile);
     phantom.exit();
