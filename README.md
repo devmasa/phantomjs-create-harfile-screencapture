@@ -4,7 +4,7 @@ Add config.json.
 
 ## How do I get set up?
 * Summary of set up
-    * git clone https://devmasa@bitbucket.org/devmasa/phantomjs-create-harfile-screencapture.git
+    * git clone https://github.com/devmasa/phantomjs-create-harfile-screencapture.git
     * rename config-sample.json config.json
     * modify config.json
     * phantomjs createHarAndScreenCapture.js identifier
