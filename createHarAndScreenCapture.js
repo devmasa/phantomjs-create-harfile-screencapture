@@ -10,7 +10,7 @@ if (system.args.length < 2) {
     console.log('Usage: createHARFile.js <identifier>');
     phantom.exit(1);
 } else if (config[system.args[1]] === undefined) {
-    console.log('Unble to determine identifier');
+    console.log('Unable to determine identifier');
     phantom.exit(1);
 }
 
