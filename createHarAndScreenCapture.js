@@ -107,6 +107,10 @@ page.onResourceReceived = function (res) {
         page.resources[res.id].startReply = res;
     }
     if (res.stage === 'end') {
+        // If contentType is null, this causes HAR Viewer error.
+        if (res.contentType === null || res.contentType === undefined) {
+            res.contentType = "";
+        }
         page.resources[res.id].endReply = res;
     }
 };
